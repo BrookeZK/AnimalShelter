@@ -1,0 +1,26 @@
+h1 {
+  font-family: monospace;
+  font-size: 100px;
+  text-align: center;
+  line-height: 30%;
+}
+
+.intro {
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  margin: 15px;
+  border:30px dotted black;
+  padding: 15px;
+  background-color: #fffef4;
+}
+
+h2 {
+  text-align: center;
+  font-family:fantasy;
+  font-weight: bolder;
+  font-size: 60px;
+}
