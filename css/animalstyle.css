@@ -42,10 +42,10 @@ img {
 }
 
 
-@@media screen and (max-width: 480px) {
-  .dogcolumns {
-    width: auto;
-    float: none;
+@media screen and (max-width: 480px) {
+  .dogcolumns p {
+    width: 100%;
+    float:  none;
     font-size: 12px;
   }
 
