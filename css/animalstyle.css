@@ -24,3 +24,19 @@ h2 {
   font-weight: bolder;
   font-size: 60px;
 }
+
+img {
+  width: 50%;
+  float: left;
+  margin: 15px;
+  border:3px dashed black;
+  padding: 10px;
+  background-color: #fffef4;
+}
+
+.dogcolumns p {
+  width: 40%;
+  float: left;
+  font-size: 24px;
+  font-family: monospace;
+}
