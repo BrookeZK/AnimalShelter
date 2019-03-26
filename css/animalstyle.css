@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  margin: 15px;
+  align-items: center;
   border: 30px dotted black;
   padding: 15px;
   background-color: #fffef4;
@@ -42,6 +42,39 @@ img {
   font-family: monospace;
 }
 
+body {
+  text-align: center;
+  align-items: center;
+}
+
+.btn#dark {
+  background-color: grey;
+  color: white;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dark-background {
+  background-color: black;
+}
+
+.dark-background h1 {
+  color: white;
+}
+
+.dark-background h2 {
+  color: white;
+}
+
+.dark-background p {
+  color: white;
+  background-color: black;
+    border: 20px dotted white;
+}
 
 @media screen and (max-width: 600px) {
   .dogcolumns p {
@@ -75,6 +108,8 @@ img {
   }
 
 }
+
+
 
 @media screen and (max-width: 1400px) and (min-width: 600px) {
   .dogcolumns p {
